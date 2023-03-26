@@ -1,4 +1,4 @@
-import { maskify } from "./7kyu/maskify";
+import { digitalRoot } from "./6kyu/digitalRoot";
 
-maskify("abcd4443");
-maskify("2");
+digitalRoot(16);
+digitalRoot(456);
