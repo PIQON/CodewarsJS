@@ -1,4 +1,4 @@
-import { digitalRoot } from "./6kyu/digitalRoot";
+import { isValidIP } from "./6kyu/isValidIP";
 
-digitalRoot(16);
-digitalRoot(456);
+isValidIP("0.0.0.0");
+isValidIP("01.02.03.04");
