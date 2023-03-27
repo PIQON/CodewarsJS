@@ -1,4 +1,3 @@
-import { isValidIP } from "./6kyu/isValidIP";
+import { longest } from "./7kyu/longest";
 
-isValidIP("0.0.0.0");
-isValidIP("01.02.03.04");
+longest("aretheyhere", "yestheyarehere");
