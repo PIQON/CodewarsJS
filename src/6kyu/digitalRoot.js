@@ -1,4 +1,4 @@
-export function digitalRoot(n) {
+function digitalRoot(n) {
   if (n < 10) return n;
 
   let numberToString = n.toString();
@@ -15,5 +15,5 @@ export function digitalRoot(n) {
     numberToString = String(reducedArray);
   }
 
-  return numberToString;
+  return Number(numberToString);
 }
