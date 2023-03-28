@@ -1,3 +1,4 @@
-import { XO } from "./7kyu/xo";
+import { getMiddle } from "./7kyu/getMiddle";
 
-XO("xoxo");
+getMiddle("test");
+getMiddle("tes");
