@@ -1,3 +1,3 @@
-import { twoSum } from "./6kyu/twoSum";
+import { isPangram } from "./6kyu/isPangram";
 
-console.log(twoSum([1, 2, 3], 4));
+isPangram("AbCdEfGhIjKlM zYxWvUtSrQpOn");
