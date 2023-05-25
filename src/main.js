@@ -1,3 +1,3 @@
-import { isPangram } from "./6kyu/isPangram";
+import { persistence } from "./6kyu/persistence";
 
-isPangram("AbCdEfGhIjKlM zYxWvUtSrQpOn");
+persistence(39);
