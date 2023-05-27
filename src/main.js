@@ -1,3 +1,3 @@
-import { persistence } from "./6kyu/persistence";
+import { integrate } from "./8kyu/integrate";
 
-persistence(39);
+console.log(integrate(3, 2));
