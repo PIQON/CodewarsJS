@@ -1,6 +1,4 @@
-function find(array, element) {
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === element) return i;
-  }
-  return "Not found";
-}
+const find = (a, e) => {
+  const index = a.indexOf(e);
+  return index == -1 ? "Not found" : index;
+};

@@ -11,12 +11,10 @@ export function persistence(num) {
       (acc, next) => (acc *= next),
       1
     );
-    console.log(multiplyNumbers);
     multiplyNumberStr = multiplyReduce.toString();
     persistenceCounter++;
   }
 
   return persistenceCounter;
 
-  // Muszę zliczać do punkut
 }
