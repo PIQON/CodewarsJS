@@ -1,3 +1,3 @@
-import { integrate } from "./8kyu/integrate";
+import { maxProduct } from "./7kyu/maxProduct";
 
-console.log(integrate(3, 2));
+maxProduct([1, 3, 2, 4, 6]);
