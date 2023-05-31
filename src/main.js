@@ -1,4 +1,4 @@
-import { solution } from "./6kyu/romanNumeralsDecoder";
+import { digPow } from "./6kyu/digPow";
 
-console.log(solution("XXI"));
-console.log(solution("IV"));
+digPow(695, 2);
+digPow(92, 1);
