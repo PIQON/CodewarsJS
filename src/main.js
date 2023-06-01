@@ -1,4 +1,3 @@
-import { digPow } from "./6kyu/digPow";
+import { sumOfDifferences } from "./8kyu/sumDifferences";
 
-digPow(695, 2);
-digPow(92, 1);
+sumOfDifferences([2, 1, 10, 3, 4, 5]);
